@@ -1,0 +1,52 @@
+<div class="container	content">
+    <div class="row">
+        <div class="card	card-outline-secondary">
+            <div class="card-header">
+                <h3 class="mb-0">Lista de Amigos</h3>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Apellido">Apellido</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="Apellido">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Direccion</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">Estado</label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Elegir</option>
+                                <option>Montevideo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+            </div>
+            <hr class="mb-5">
+            <div class="row">
+                <app-amigos></app-amigos>
+            </div>
+
+        </div>
